@@ -30,7 +30,7 @@ export function createGallery(images) {
 }
 
 export function clearGallery() {
-    const galleryElem = document.querySelector('.gallery');  // шукаємо тут теж
+    const galleryElem = document.querySelector('.gallery');  
     galleryElem.innerHTML = '';
 }
 
